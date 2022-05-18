@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ptowo.github.io</id>
     <title>Pitiless0514 爆蛋实验室</title>
-    <updated>2022-05-18T04:09:23.498Z</updated>
+    <updated>2022-05-18T11:08:18.582Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ptowo.github.io"/>
     <link rel="self" href="https://ptowo.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://ptowo.github.io/images/avatar.png</logo>
     <icon>https://ptowo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Pitiless0514 爆蛋实验室</rights>
+    <entry>
+        <title type="html"><![CDATA[BZOJ2510 弱题 题解]]></title>
+        <id>https://ptowo.github.io/post/bzoj2510-ruo-ti-ti-jie/</id>
+        <link href="https://ptowo.github.io/post/bzoj2510-ruo-ti-ti-jie/">
+        </link>
+        <updated>2022-05-18T09:21:29.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[20211012 叁仟柒佰万(clods) （巴蜀中学联考）]]></title>
         <id>https://ptowo.github.io/post/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao/</id>

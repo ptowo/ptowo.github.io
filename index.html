@@ -1,254 +1,231 @@
-
+<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>Pitiless0514 爆蛋实验室</title>
-<meta name="description" content="自闭">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://ptowo.github.io/favicon.ico?v=1652872188317">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://ptowo.github.io/favicon.ico?v=1652872246236">
 <link rel="stylesheet" href="https://ptowo.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="自闭">
+    
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://ptowo.github.io">
-        <img class="avatar" src="https://ptowo.github.io/images/avatar.png?v=1652872188317" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://ptowo.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://ptowo.github.io">
+        <img src="https://ptowo.github.io/images/avatar.png?v=1652872246236" class="site-logo">
         <h1 class="site-title">Pitiless0514 爆蛋实验室</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-      <div class="content-container">
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
         
+      
         
-<section class="post-item">
-    <div class="content">
-      <a href="https://ptowo.github.io/post/bzoj2510-ruo-ti-ti-jie/">
-        <h2 class="post-title">BZOJ2510 弱题 题解</h2>
-      </a>
-      <div class="post-abstract">
+      
         
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-05-18</span>
+      
         
-      </div>
+      
+        
+      
     </div>
-    
-      <a href="https://ptowo.github.io/post/bzoj2510-ruo-ti-ti-jie/">
-        <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/bzoj2510-ruo-ti-ti-jie.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://ptowo.github.io/post/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao/">
-        <h2 class="post-title">20211012 叁仟柒佰万(clods) （巴蜀中学联考）</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-05-18</span>
-        
-      </div>
+    <div class="site-description">
+      自闭
     </div>
-    
-      <a href="https://ptowo.github.io/post/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao/">
-        <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://ptowo.github.io/post/p1850-noip2016-ti-gao-zu-huan-jiao-shi-ti-jie/">
-        <h2 class="post-title">P1850 [NOIP2016 提高组] 换教室 题解</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-05-17</span>
-        
-      </div>
+    <div class="site-footer">
+      Powered by Afterglow | <a class="rss" href="https://ptowo.github.io/atom.xml" target="_blank">RSS</a>
     </div>
-    
-      <a href="https://ptowo.github.io/post/p1850-noip2016-ti-gao-zu-huan-jiao-shi-ti-jie/">
-        <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/p1850-noip2016-ti-gao-zu-huan-jiao-shi-ti-jie.png')">
-        </div>
-      </a>
-    
-  </section>
+  </div>
+</div>
 
-<section class="post-item">
-    <div class="content">
-      <a href="https://ptowo.github.io/post/p7961-noip2021-shu-lie-ti-jie/">
-        <h2 class="post-title">P7961 [NOIP2021] 数列 题解</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-05-17</span>
-        
-      </div>
-    </div>
-    
-      <a href="https://ptowo.github.io/post/p7961-noip2021-shu-lie-ti-jie/">
-        <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/p7961-noip2021-shu-lie-ti-jie.png')">
-        </div>
-      </a>
-    
-  </section>
 
-<section class="post-item">
-    <div class="content">
-      <a href="https://ptowo.github.io/post/cf1620f-ti-jie/">
-        <h2 class="post-title">CF1620F 题解</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-05-17</span>
-        
-      </div>
-    </div>
-    
-      <a href="https://ptowo.github.io/post/cf1620f-ti-jie/">
-        <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/cf1620f-ti-jie.png')">
-        </div>
-      </a>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://ptowo.github.io/post/hello-gridea/">
-        <h2 class="post-title">Hello Gridea</h2>
-      </a>
-      <div class="post-abstract">
-        <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://ptowo.github.io/post/bzoj2510-ruo-ti-ti-jie/">
+                  <h2 class="post-title">BZOJ2510 弱题 题解</h2>
+                </a>
+                <div class="post-date">
+                  2022-05-18
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://ptowo.github.io/post/bzoj2510-ruo-ti-ti-jie/">
+                  <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/bzoj2510-ruo-ti-ti-jie.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://ptowo.github.io/post/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao/">
+                  <h2 class="post-title">20211012 叁仟柒佰万(clods) （巴蜀中学联考）</h2>
+                </a>
+                <div class="post-date">
+                  2022-05-18
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://ptowo.github.io/post/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao/">
+                  <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/20211012-san-qian-qi-bai-wan-clods-ba-shu-zhong-xue-lian-kao.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://ptowo.github.io/post/p1850-noip2016-ti-gao-zu-huan-jiao-shi-ti-jie/">
+                  <h2 class="post-title">P1850 [NOIP2016 提高组] 换教室 题解</h2>
+                </a>
+                <div class="post-date">
+                  2022-05-17
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://ptowo.github.io/post/p1850-noip2016-ti-gao-zu-huan-jiao-shi-ti-jie/">
+                  <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/p1850-noip2016-ti-gao-zu-huan-jiao-shi-ti-jie.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://ptowo.github.io/post/p7961-noip2021-shu-lie-ti-jie/">
+                  <h2 class="post-title">P7961 [NOIP2021] 数列 题解</h2>
+                </a>
+                <div class="post-date">
+                  2022-05-17
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://ptowo.github.io/post/p7961-noip2021-shu-lie-ti-jie/">
+                  <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/p7961-noip2021-shu-lie-ti-jie.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://ptowo.github.io/post/cf1620f-ti-jie/">
+                  <h2 class="post-title">CF1620F 题解</h2>
+                </a>
+                <div class="post-date">
+                  2022-05-17
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://ptowo.github.io/post/cf1620f-ti-jie/">
+                  <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/cf1620f-ti-jie.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://ptowo.github.io/post/hello-gridea/">
+                  <h2 class="post-title">Hello Gridea</h2>
+                </a>
+                <div class="post-date">
+                  2018-12-12
+                </div>
+                <div class="post-abstract">
+                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://ptowo.github.io/tag/W1SHU1vZh/">
-                Gridea
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="https://ptowo.github.io/post/hello-gridea/">
-        <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/hello-gridea.png')">
+                </div>
+              </div>
+              
+                <a class="right" href="https://ptowo.github.io/post/hello-gridea/">
+                  <div class="feature-container" style="background-image: url('https://ptowo.github.io/post-images/hello-gridea.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
         </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
       </div>
-
-      <div class="site-footer">
-  <div class="slogan">自闭</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by Afterglow | <a class="rss" href="https://ptowo.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -258,6 +235,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ptowo.github.io</id>
     <title>Pitiless0514 爆蛋实验室</title>
-    <updated>2022-05-26T12:03:41.930Z</updated>
+    <updated>2022-05-30T13:18:27.310Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ptowo.github.io"/>
     <link rel="self" href="https://ptowo.github.io/atom.xml"/>
@@ -10,6 +10,149 @@
     <logo>https://ptowo.github.io/images/avatar.png</logo>
     <icon>https://ptowo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Pitiless0514 爆蛋实验室</rights>
+    <entry>
+        <title type="html"><![CDATA[曼哈顿距离与切比雪夫距离]]></title>
+        <id>https://ptowo.github.io/post/man-ha-dun-ju-chi-yu-qie-bi-xue-fu-ju-chi/</id>
+        <link href="https://ptowo.github.io/post/man-ha-dun-ju-chi-yu-qie-bi-xue-fu-ju-chi/">
+        </link>
+        <updated>2022-05-30T13:15:39.000Z</updated>
+        <content type="html"><![CDATA[<p>曼哈顿距离为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∣</mi><mi>x</mi><mn>1</mn><mo>−</mo><mi>y</mi><mn>1</mn><mi mathvariant="normal">∣</mi><mo>+</mo><mi mathvariant="normal">∣</mi><mi>x</mi><mn>2</mn><mo>−</mo><mi>y</mi><mn>2</mn><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">|x1-y1| + |x2-y2|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault">x</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord">1</span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault">x</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord">2</span><span class="mord">∣</span></span></span></span> 。</p>
+<p>切比雪夫距离为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>max</mi><mo>⁡</mo><mo>(</mo><mi mathvariant="normal">∣</mi><mi>x</mi><mn>1</mn><mo>−</mo><mi>y</mi><mn>1</mn><mi mathvariant="normal">∣</mi><mo separator="true">,</mo><mi mathvariant="normal">∣</mi><mi>x</mi><mn>2</mn><mo>−</mo><mi>y</mi><mn>2</mn><mi mathvariant="normal">∣</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\max(|x1-y1|,|x2-y2|)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop">max</span><span class="mopen">(</span><span class="mord">∣</span><span class="mord mathdefault">x</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord">1</span><span class="mord">∣</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">∣</span><span class="mord mathdefault">x</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord">2</span><span class="mord">∣</span><span class="mclose">)</span></span></span></span> 。</p>
+<p>一个点 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(x,y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span> 的坐标变为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo separator="true">,</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(x+y,x-y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.7777700000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span> 后，原坐标系中曼哈顿距离 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>=</mo></mrow><annotation encoding="application/x-tex">=</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">=</span></span></span></span> 新坐标系中切比雪夫距离。</p>
+<p>一个点 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(x,y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span> 的坐标变为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo separator="true">,</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><annotation encoding="application/x-tex">(\dfrac{x+y}{2},\dfrac{x-y}{2})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.9463300000000001em;vertical-align:-0.686em;"></span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603300000000002em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603300000000002em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span></span></span></span> 后，原坐标系中的切比雪夫距离为新坐标系中的曼哈顿距离。</p>
+<p>证明显然。</p>
+<p>切比雪夫距离在计算的时候需要取 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>max</mi><mo>⁡</mo></mrow><annotation encoding="application/x-tex">\max</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mop">max</span></span></span></span> ，转化成曼哈顿距离可以规避掉这东西。</p>
+<h2 id="p3964-tjoi2013松鼠聚会"><a href="https://www.luogu.com.cn/problem/P3964">P3964 [TJOI2013]松鼠聚会</a></h2>
+<p>给定 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 个点，要求找到一个点使其他点到这个点的切比雪夫距离和最小。</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>1</mn><mi>e</mi><mn>5</mn></mrow><annotation encoding="application/x-tex">1 \le n\le 1e5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord mathdefault">e</span><span class="mord">5</span></span></span></span></p>
+<hr>
+<p>发现知道结论之后这东西就是一个裸题，然后直接维护就好了。</p>
+<p>然后转成曼哈顿距离时，坐标要除二，于是先整体乘 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> ，最后答案除 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> 就好了。</p>
+<pre><code class="language-cpp">// 德丽莎你好可爱德丽莎你好可爱德丽莎你好可爱德丽莎你好可爱德丽莎你好可爱
+// Problem: P3964 [TJOI2013]松鼠聚会
+// Contest: Luogu
+// URL: https://www.luogu.com.cn/problem/P3964
+// Memory Limit: 125 MB
+// Time Limit: 1000 ms
+// The Author : Pitiless0514
+// 
+// Powered by CP Editor (https://cpeditor.org)
+
+#include &lt;bits/stdc++.h&gt;
+#include &lt;chrono&gt;
+using namespace std;
+#define int long long
+#define pir pair &lt;int,int&gt;
+#define pb push_back
+#define eb emplace_back
+#define fi first
+#define se second
+#define mp make_pair
+#define vector &lt;int&gt; vec
+#define unsigned long long u32
+inline int min(int x,int y) { return (x &lt; y) ? x : y;}
+inline int max(int x,int y) { return (x &gt; y) ? x : y;}
+struct custom_hash {
+  static uint64_t splitmix64(uint64_t x) {
+    x += 0x9e3779b97f4a7c15;
+    x = (x ^ (x &gt;&gt; 30)) * 0xbf58476d1ce4e5b9;
+    x = (x ^ (x &gt;&gt; 27)) * 0x94d049bb133111eb;
+    return x ^ (x &gt;&gt; 31);
+  }
+  size_t operator()(uint64_t x) const {
+    static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+    return splitmix64(x + FIXED_RANDOM);
+  }
+}; //unordered_map
+#define unordered_map &lt;int,int,custom_hash&gt; umap
+#define outend() flush()
+#define randnum(mod) rand2() % mod + 1
+namespace IO {
+  int len = 0;
+  char ibuf[(1 &lt;&lt; 20) + 1], *iS, *iT, out[(1 &lt;&lt; 25) + 1];
+  #define gh()                                                                   \
+    (iS == iT ? iT = (iS = ibuf) + fread(ibuf, 1, (1 &lt;&lt; 20) + 1, stdin),         \
+    (iS == iT ? EOF : *iS++) : *iS++)
+  inline int read() {
+    char ch = gh();
+    int x = 0;
+    char t = 0;
+    while (ch &lt; '0' || ch &gt; '9') t |= ch == '-', ch = gh();
+    while (ch &gt;= '0' &amp;&amp; ch &lt;= '9') x = x * 10 + (ch ^ 48), ch = gh();
+    return t ? -x : x;
+  }
+  inline void putc(char ch) { out[len++] = ch; }
+  template &lt;class T&gt; inline void write(T x) {
+    if (x &lt; 0) putc('-'), x = -x;
+    if (x &gt; 9) write(x / 10);
+    out[len++] = x % 10 + 48;
+  }
+  string getstr(void) {
+    string s = &quot;&quot;;
+    char c = gh();
+    while (c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == EOF) c = gh();
+    while (!(c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == EOF))s.push_back(c), c = gh();
+    return s;
+  }
+  void putstr(string str, int begin = 0, int end = -1) {
+    if (end == -1) end = str.size();
+    for (int i = begin; i &lt; end; i++) putc(str[i]);
+    return;
+  }
+  inline void flush() {
+    fwrite(out, 1, len, stdout);
+    len = 0;
+  }
+} // namespace IO by Macesuted
+using IO::flush;
+using IO::getstr;
+using IO::putc;
+using IO::putstr;
+using IO::read;
+using IO::write;
+const int N = 2e6;
+int n, x[N], y[N], sx[N], sy[N];
+struct node { int x, y; } a[N], b[N];
+int cmp1( node x, node y ) { return x.x &lt; y.x; }
+int cmp2( node x, node y ) { return x.y &lt; y.y; }
+int calc( int id ) {
+  int ans = 0, pos;
+  pos = lower_bound(x + 1, x + n + 1, b[id].x) - x;
+  ans += (b[id].x * (pos - 1) - sx[pos - 1] + sx[n] - sx[pos - 1] - b[id].x * (n - pos + 1));
+  pos = lower_bound(y + 1, y + n + 1, b[id].y) - y;
+  ans += (b[id].y * (pos - 1) - sy[pos - 1] + sy[n] - sy[pos - 1] - b[id].y * (n - pos + 1));
+  return ans;
+}
+signed main () {
+  n = read();
+  for(int i = 1; i &lt;= n; i++) {
+    a[i].x = read(), a[i].y = read();
+    b[i].x = a[i].x + a[i].y;
+    b[i].y = a[i].x - a[i].y;
+  }
+  sort(b + 1, b + n + 1, cmp2);
+  for(int i = 1; i &lt;= n; i++) {
+    y[i] = b[i].y;
+    sy[i] = sy[i - 1] + y[i];
+  }
+  sort(b + 1, b + n + 1, cmp1);
+  for(int i = 1; i &lt;= n; i++) {
+    x[i] = b[i].x;
+    sx[i] = sx[i - 1] + x[i];
+  }
+  int ans = -1;
+  for(int i = 1; i &lt;= n; i++) {
+    ans =  (ans &lt; 0 ? calc(i) : min(ans, calc(i)));
+  }
+  cout &lt;&lt; ans / 2 &lt;&lt; &quot;\n&quot;;
+  return 0;
+}
+
+
+
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CF708E Student's Camp 题解]]></title>
         <id>https://ptowo.github.io/post/cf708e-students-camp-ti-jie/</id>
